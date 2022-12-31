@@ -47,8 +47,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -185,7 +185,7 @@
               <docencoding>${project.build.sourceEncoding}</docencoding>
               <charset>${project.build.sourceEncoding}</charset>
               <links>
-                <link>https://docs.oracle.com/javase/8/docs/api/</link>
+                <link>https://docs.oracle.com/javase/${maven.compiler.target}/docs/api/</link>
               </links>
               <sourcepath>target/generated-sources/delombok</sourcepath>
             </configuration>
