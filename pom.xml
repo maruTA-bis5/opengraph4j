@@ -3,7 +3,7 @@
 
   <groupId>net.bis5.opengraph4j</groupId>
   <artifactId>opengraph4j</artifactId>
-  <version>0.1.1-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
 
   <name>OpenGraph4J</name>
   <url>https://github.com/maruTA-bis5/opengraph4j</url>
